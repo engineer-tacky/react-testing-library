@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, { useState } from "react";
 
-const RenderInput = ({outputConsole}) => {
+const RenderInput = ({ outputConsole }) => {
   const [input, setInput] = useState("");
   const outputValue = () => {
     if (input) {
@@ -23,6 +23,6 @@ const RenderInput = ({outputConsole}) => {
       <button onClick={outputValue}>Console</button>
     </div>
   );
-}
+};
 
-export default RenderInput
+export default RenderInput;
